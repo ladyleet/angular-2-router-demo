@@ -1,3 +1,52 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col s12">
+      <nav>
+        <div class="nav-wrapper purple">
+          <a href="#!" class="brand-logo">Router Demo</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="https://github.com/ladyleet/angular-2-router-demo"><i class="material-icons right"></i>Fork it</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12">
+      <h3>This app was made as a demo to show you Angular 2's new router.</h3>
+      <p>You can read about the new router and how this site is configured <a href="https://medium.com/@ladyleet/using-angular-2s-brand-new-router-a868fdc23503#.952hz1vq1">here</a>.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12">
+      <h3>These buttons are what dictate the router output.</h3>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12">
+        <a class="waves-effect waves-light btn red margin-top-10" routerLink="/red-saccone">Red Saccone</a>
+        <a class="waves-effect waves-light btn yellow darken-1 margin-top-10" routerLink="/yellow-jeffy">Yellow Jeffy</a>
+        <a class="waves-effect waves-light btn green margin-top-10" routerLink="/green-broccoli">Green Broccoli</a>
+        <a class="waves-effect waves-light btn teal margin-top-10" routerLink="/sebmck-bae">SebMck Bae</a>
+        <a class="waves-effect waves-light btn blue margin-top-10" routerLink="/blue-benlesh">Blue Ben Lesh</a>
+        <a class="waves-effect waves-light btn purple margin-top-10" routerLink="/purple-larkin">Purple Larkin</a>
+        <a class="waves-effect waves-light btn pink margin-top-10" routerLink="/pink-easty">Pink Easty</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12">
+      <h3>Below is the router output!</h3>
+    </div>
+    <div class="col s12">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+
+
+</div>
